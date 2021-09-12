@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <title>Calculator</title>
+</head>
+<body>
+    <i id="lighting" class="fas fa-moon fa-2x" title="light/dark"></i>
+    <header>
+        <h1>Calculator</h1>
+    </header>
+    <main>
+        <div class="screen">
+            <div data-previous-operand class="previous-operand"></div>
+            <div data-current-operand class="current-operand"></div>
+        </div>
+        <section>
+            <button data-number id="seven" class="number">7</button>
+            <button data-number id="eight" class="number">8</button>
+            <button data-number id="nine" class="number">9</button>
+            <button data-all-clear id="clear">CLEAR</button>
+            <button data-number id="four" class="number">4</button>
+            <button data-number id="five" class="number">5</button>
+            <button data-number id="six" class="number">6</button>
+            <button data-delete id="delete"><i class="fas fa-backspace"></i></button>
+            <button data-number id="one" class="number">1</button>
+            <button data-number id="two" class="number">2</button>
+            <button data-number id="three" class="number">3</button>
+            <button data-operation id="plus">&plus;</button>
+            <button data-number id="zero" class="number">0</button>
+            <button data-operation id="minus">-</button>
+            <button data-operation id="times">x</button>
+            <button data-operation id="divide">&divide;</button>
+            <button data-number>.</button>
+            <button data-equals id="equals">&equals;</button>
+        </section>
+    </main>
+    <script src="./app.js"></script>
+</body>
+</html>

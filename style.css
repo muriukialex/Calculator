@@ -1,0 +1,63 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+i {
+  cursor: pointer;
+}
+.dark {
+  background-color: rgba(0, 0, 0, 1);
+  color: #eee;
+}
+header {
+  text-align: center;
+}
+main {
+  display: grid;
+  grid-template-rows: 1fr;
+  place-content: center;
+}
+.screen {
+  height: 100%;
+  min-height: 10rem;
+  background-color: #fff;
+  width: 29.9rem;
+  text-align: right;
+  font-size: 4.5em;
+  border: 1px solid #000;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.previous-operand {
+  font-size: 0.6em;
+  color: rgb(49, 45, 45);
+  background-color: #fff;
+}
+.current-operand {
+  font-size: 1em;
+  color: #000;
+  background-color: #fff;
+}
+button {
+  height: 4rem;
+  cursor: pointer;
+  font-size: 2em;
+  overflow: hidden;
+}
+section {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(5rem, 1fr));
+  /* width: 30rem; */
+  width: 100%;
+}
+#equals {
+  grid-column: 2/5;
+}
+
+@media screen and (max-width: 550px) {
+  .screen {
+    grid-template-columns: repeat(4, minmax(2em, 1fr));
+    width: auto;
+    font-size: 0.5em;
+  }
+}
