@@ -1,6 +1,10 @@
 # Calculator
 
+
+![calculator](https://gallant-wright-e0f032.netlify.app/calculator.gif)
+
 ## Calculator implemented using JavaScript, HTML and CSS
+
 
 ## Motivation for building this project
  - Solidify my understanding of Object Oriented Programming
