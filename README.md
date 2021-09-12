@@ -25,7 +25,7 @@
   - Hit equals button (=)
   - Answer is displayed in the screen
  
-##### Find the project [here](https://alexcalc1.netlify.app/)
+##### Find the project [here](https://alexcalc.netlify.app/)
  
  
  ### Technologies used
